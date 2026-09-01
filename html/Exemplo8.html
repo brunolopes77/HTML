@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 8 HTML</title>
+</head>
+<body>
+    <h1>Exercício 8 HTML - Uso das tags de Image, Vídeo e IFrame</h1>
+    <p>
+        Este exemplo mostra diferentes formas de usar as tags <code>img</code>, <code>video</code> e <code>iframe</code>, incluindo o uso de <code>figure</code> e <code>figcaption</code> para agrupar mídias com legendas.
+    </p>
+
+    <h2>Descrição</h2>
+    <p>
+        As tags abordadas são:
+    </p>
+    <ul>
+        <li><strong>img</strong>: Usada para inserir imagens na página.</li>
+        <li><strong>video</strong>: Usada para inserir vídeos na página.</li>
+        <li><strong>iframe</strong>: Usada para incorporar conteúdo externo, como vídeos do YouTube.</li>
+        <li><strong>figure</strong>: Usada para agrupar mídias (imagens, vídeos, gráficos) com uma legenda.</li>
+        <li><strong>figcaption</strong>: Usada para adicionar uma legenda ao conteúdo dentro de <code>figure</code>.</li>
+    </ul>
+
+    <h2>Exemplos Práticos</h2>
+
+    <h3>1. Imagem com Legenda usando figure e figcaption</h3>
+    <p>
+        Uma imagem agrupada com uma legenda descritiva.
+    </p>
+    <figure>
+        <figcaption>Imagem do Pincher</figcaption>
+        <img src="imagem1.png" alt="Texto descritivo para quando a imagem não aparecer" width="600" height="400">
+    </figure>
+    <h3>2. Imagem da internet.</h3>
+    <p>Quando usamos imagem da internet devemos sempre verificar se a imagem possuí livre autorização. Muito cuidado ao utilizá-las,No exemplo abaixo demonstramos como vincular uma imagem da internet.</p>
+    <figure>
+        <figcaption>O menino, a topeira, a raposa e o cavalo.
+        </figcaption>
+        <img src="https://www.planocritico.com/wp-content/uploads/2022/12/o_menino_a_toupeira_a_raposa_e_o_cavalo_plano_critico.jpg"alt="Livro mais vendido no EUA em 2021.">
+    </figure>
+    <h3>Uso das tags video e iframe</h3>
+    <figure>
+        <video controls width="400">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+        <figcaption>Vídeo 1: Um vídeo de exemplo (Big Buck Bunny).</figcaption>
+    </figure>
+    <figure>
+        <figcaption>Vídeo YouTube</figcaption>
+        <iframe width="1399" height="787" src="https://www.youtube.com/embed/I_e5OEfD2jY?list=RDI_e5OEfD2jY" title="Frei Gilson |  Acoustic Som do Monte | DVD - Eu te levantarei" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </figure>
+</body>
+</html>
