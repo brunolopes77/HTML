@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 11 HTML</title>
+</head>
+<body>
+    <h1>Exemplo 11 - HTML - Formulários</h1>
+    <div>
+        <h2>Formulários</h2>
+        <p>Um formulário HTML é criado com a tag form, utilizando elementos como input (texto, email, senha), label (rótulos) e button (botão de envio) para coletar dados do usuário e enviá-los a um servidor via método POST ou GET. É a interface principal para cadastros, login e pesquisas em websites.</p>
+        <p>O método GET em formulários HTML envia dados anexando-os à URL (como pares nome=valor após um ?), tornando-os visíveis e compartilháveis. É o método padrão, ideal para buscas e navegação, mas não deve ser usado para informações sensíveis (senhas, dados bancários) devido à baixa segurança e limite de tamanho (aprox. 3000 caracteres).</p>
+    </div>
+    <div>
+        <h2>Exemplo formulário - GET</h2>
+             <form action="paginaDestino.aspx"method = "get">
+             <div>
+                <label for="">Usuário</label><br>
+                <input type="text" name="txtUsuario" id="txtUsuario"><br>
+            </div>
+            <div>
+                <label for="">Senha</label><br>
+                <input type="password" name="txtUsuario" id="txtUsuario"><br>
+            </div>
+            <div>
+                <button type="submit">Autenticar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
