@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 15 - HTML</title>
+</head>
+<body>
+    <form action="paginaDestino.jsp" method = "post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label for="">Nome</label><br>
+                <input type="text" name="" id="" required>
+            </div>
+            <br>
+            <div>
+                <label for="">e-mail</label><br>
+                <input type="email" name="" id=""placeholder ="seuemail@gmail.com">
+            </div>
+            <br>
+            <div>
+                <label for="">Telefone</label><br>
+                <input type="tell" name="" id="" placeholder="+55-(61) 99999-7070" pattern="[0=9]{10-11}">
+            </div>
+            <br>
+            <div>
+                <label for="">Ano Nascimento</label>
+                <input type="number" name="" id="" min="1910" step="10">
+            </div>
+            <br>
+            <fieldset>
+                <legend>Preferências</legend>
+                <div>
+                    <label for="">Cor favorita</label><br>
+                    <input type="color" name="" id="">
+                </div>
+                <br>
+                <div>
+                    <label for="">Nível de interesse em tecnologia</label><br>
+                    <input type="range" name="" id="" min="0" max="10" step="1" value = "5">
+                </div>
+                <br>
+                <div>
+                    <label for="">Hora para despertar</label><br>
+                    <input type="time" name="" id="">
+                </div>
+                <br>
+                <div>
+                    <label for="">Fale um pouco sobre você</label><br>
+                    <textarea name="" id="" cols="30" rows="10" maxlength="200"></textarea>
+                </div>
+                <br>
+                <button type="submit">Salvar</button>
+            </fieldset>
+        </fieldset>
+    </form>
+</body>
+</html>
