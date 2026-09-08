@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 13 - HTML</title>
+</head>
+<body>
+    <form action=paginaDestino.aspx" method="get">
+        <fieldset>
+            <legend>Cadastro</legend>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <div>
+                    <label for="">CPF</label><br>
+                    <input type="text" name="txtCPF" id="txtCPF">
+                </div>
+                <br>
+                <div>
+                    <label for="">Nome</label><br>
+                    <input type="text" name="txtNome" id="txtNome">
+                </div>
+                <br>
+                <div>
+                    <label for="">Nome da Mãe</label><br>
+                    <input type="text" name="txtNomeMae" id="txtNomeMae">
+                </div>
+                <br>
+                <div>
+                    <label for="">Nome do Pai</label><br>
+                    <input type="text" name="txtNomePai" id="txtNomePai">
+                </div>
+                <br>
+                <div>
+                    <label for="">Dta de nascimento</label><br>
+                    <input type="date" name="txtDataNascimento" id="txtDataNascinento">
+                </div>
+                <br>
+                <div>
+                    <label for="">Estado Civil</label><br>
+                    <select name="cboEstadoCivil" id="cboEstadoCivil">
+                        <option value="1">Casado</option>
+                        <option value="2">Solteiro</option>
+                        <option value="3">Viúvo</option>
+                        <option value="4">Divorciado</option>
+                        <option value="5">Tico-tico no fubá</option>
+                        <option value="6">Outros</option>
+                    </select>
+                </div>
+            </fieldset>
+        </fieldset>
+        <fieldset>
+            <legend>Preferências</legend>
+            <div>
+                <label for="">Forma de trabalho Preferida</label><br>
+                <input type="checkbox" name="chkFormaTrabalho" id="chkFormaTrabalho"value = "1" >Home Ofice <br>
+                <input type="checkbox" name="chkFormaTrabalho" id="chkFormaTrabalho"value = "2" >Híbrido <br>
+                <input type="checkbox" name="chkFormaTrabalho" id="chkFormaTrabalho"value = "3" >Presencial <br>
+            </div>
+            <br>
+            <div>
+                <label for="">Área de intersse</label> <br>
+                <input type="radio" name="rdAreaInteresse" id="rdAreaInteresse"value = "1">Desenvolvimento <br>
+                <input type="radio" name="rdAreaInteresse" id="rdAreaInteresse"value = "2">Desenvolvimento Front-End <br>
+                <input type="radio" name="rdAreaInteresse" id="rdAreaInteresse"value = "3">Desenvolvimento Full-Stack <br>
+                <input type="radio" name="rdAreaInteresse" id="rdAreaInteresse"value = "4">Desenvolvimento Engenharia de IA <br>
+            </div>
+            
+        </fieldset>
+        <button type="submit">Cadastrar</button> <br>
+        <button type="submit">Sair</button>
+    </form>
+</body>
+</html>
