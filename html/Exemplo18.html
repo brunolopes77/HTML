@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 18 - HTML</title>
+</head>
+<body>
+    <form action="paginaDestino.jsp" method = "post">
+        <fieldset>
+            <legend>Dados Pessoais do Aluno</legend>
+            <div>
+                <label for="">Nome</label><br>
+                <input type="text" name="" id="" required>
+            </div>
+            <br>
+                <div>
+                    <label for="">Cor favorita</label><br>
+                    <input type="color" name="" id="">
+                </div>
+                <br>
+                <div>
+                    <label for="">Nível de interesse em HTML</label><br>
+                    <input type="range" name="" id="" min="0" max="10" step="1" value = "5">
+                <div>
+                <br>
+                <div>
+                    <label for="">Disciplinas de Interesse</label><br>
+                    <input type="checkbox" name="chkFormaTrabalho" id="chkFormaTrabalho"value = "1" >Exatas <br>
+                    <input type="checkbox" name="chkFormaTrabalho" id="chkFormaTrabalho"value = "2" >Humanas <br>
+                    <input type="checkbox" name="chkFormaTrabalho" id="chkFormaTrabalho"value = "3" >Ambas <br>
+                </div>
+                <br>
+                <div>
+                    <label for="">Turno preferido</label><br>
+                    <input type="radio" name="rdTurno" id="turno"value = "1" >Matutino 
+                    <input type="radio" name="rdTurno" id="rdTurno"value = "2" >Vespetirno 
+                    <input type="radio" name="rdTurno" id="chkTurno"value = "3" >Noturno 
+                </div>
+                <br>
+                <button type="submit">Salvar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
