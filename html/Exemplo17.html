@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 17 - HTML</title>
+</head>
+<body>
+    <form action="paginaDestino.jsp" method = "post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label for="">NomeCompleto</label><br>
+                <input type="text" name="" id="" required>
+            </div>
+            <br>
+            <div>
+                <label for="">e-mail</label><br>
+                <input type="email" name="" id=""placeholder  required="seuemail@gmail.com">
+            </div>
+            <br>
+            <div>
+                <label for="">Data de nascimento</label><br>
+                <input type="date" name="txtDataNascimento" id="txtDataNascinento"min="1901-01-01" max="2100-01-01">
+            </div>
+            <br>
+            <div>
+                <label for="">Ano Nascimento</label>
+                <input type="number" name="" id="" min="1910"  max = "2200"step="10">
+            </div>
+            <br>
+            <fieldset>
+                <div>
+                    <label for="">Horário preferido de estudo</label><br>
+                    <input type="time" name="" id="">
+                </div>
+                <br>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </fieldset>
+    </form>
+</body>
+</html>
